@@ -9,7 +9,7 @@ export PATH
 #   
 #   
 #===============================================================================================
-version="1.0.0"
+version="1.0.1"
 if [ $(id -u) != "0" ]; then
     echo "Error: You must be root to run this script"
     exit 1
@@ -550,6 +550,7 @@ config_kcptun_for_ss_ssr(){
     "local_port":${ss_libev_local_port},
     "password":"${set_ss_libev_pwd}",
     "timeout":600,
+    "fast_open":true,
     "method":"${set_ss_libev_method}"
 }
 EOF
