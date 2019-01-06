@@ -3,7 +3,7 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 #===============================================================================================
 #  
-#    wget --no-check-certificate -O ./kcptun_for_ss_ssr-install.sh https://raw.githubusercontent.com/shell12345/testOnly/master/install.sh
+#    wget --no-check-certificate -O ./install.sh https://raw.githubusercontent.com/shell12345/testOnly/master/install.sh
 #    chmod 700 ./install.sh
 #    ./install.sh install
 #   
