@@ -547,7 +547,6 @@ config_kcptun_for_ss_ssr(){
 {
     "server":"0.0.0.0",
     "server_port":${set_ss_libev_port},
-    "local_address":"127.0.0.1",
     "local_port":${ss_libev_local_port},
     "password":"${set_ss_libev_pwd}",
     "timeout":600,
@@ -560,7 +559,6 @@ EOF
     cat > ${ssr_config}<<-EOF
 {
     "server":"0.0.0.0",
-    "local_address":"127.0.0.1",
     "local_port":${ssr_local_port},
     "port_password":{
         "${set_ssr_port}":"${set_ssr_pwd}"
