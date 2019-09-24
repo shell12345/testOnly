@@ -5,7 +5,7 @@ export LIBSODIUM_VER=1.0.16
 #export LIBSODIUM_LINK="https://download.libsodium.org/libsodium/releases/libsodium-${LIBSODIUM_VER}.tar.gz"
 export LIBSODIUM_LINK="https://github.com/jedisct1/libsodium/releases/download/${LIBSODIUM_VER}/libsodium-${LIBSODIUM_VER}.tar.gz"
 # MBEDTLS
-export MBEDTLS_VER=2.16.0
+export MBEDTLS_VER=2.16.0com
 export MBEDTLS_LINK="https://tls.mbed.org/download/mbedtls-${MBEDTLS_VER}-gpl.tgz"
 # SS_LIBEV
 export SS_LIBEV_VER=3.3.1
@@ -25,7 +25,7 @@ export SSRR_LINK="https://github.com/onekeyshell/shadowsocksr/archive/akkariiin/
 export SSRR_YUM_INIT="https://raw.githubusercontent.com/shell12345/testOnly/master/ssrr.init"
 export SSRR_APT_INIT="https://raw.githubusercontent.com/shell12345/testOnly/master/ssrr_apt.init"
 # KCPTUN
-export KCPTUN_VER=20190910
+export KCPTUN_VER=20190924
 export KCPTUN_AMD64_LINK="https://github.com/xtaci/kcptun/releases/download/v${KCPTUN_VER}/kcptun-linux-amd64-${KCPTUN_VER}.tar.gz"
 export KCPTUN_386_LINK="https://github.com/xtaci/kcptun/releases/download/v${KCPTUN_VER}/kcptun-linux-386-${KCPTUN_VER}.tar.gz"
 export KCPTUN_INIT="https://raw.githubusercontent.com/shell12345/testOnly/master/kcptun.init"
